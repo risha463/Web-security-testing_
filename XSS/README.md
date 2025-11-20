@@ -57,17 +57,6 @@ Spider + Active Scan
 ✔ Payload reflected in HTML
 ✔ ZAP Active Scan triggered High‑risk XSS alert
 
-📸 Manual Test Screenshots
-![Manual Test 1](XSS_manual_test1.png)
-![Manual Test 2](XSS_manual_test2.png)
-![Manual Test 3](XSS_manual_test3.png)
-![Manual Test 4](XSS_manual_test4.png)
-
-📸 Automated Test Screenshots (OWASP ZAP)
-![Automated Test 1](XSS_automated_test1.png)
-![Automated Test 2](XSS_automated_test2.png)
-![Automated Test 3](XSS_automated_test3.png)
-![Automated Test 4](XSS_automated_test4.png)
 
 🔍 Proof of Concept (PoC) URL
 http://localhost/dvwa/vulnerabilities/xss_r/?name=%22%3E%3Cscript%3Ealert(1)%3C/script%3E
